@@ -7,7 +7,7 @@ const router = createRouter({
       path: '/courses',
       component: () => import('@/app/layouts/DefaultLayout.vue'),
       children: [
-        { path: '', component: () => import('@/app/pages/ImportUserPage.vue') }
+        { path: '', component: () => import('@/pages/ImportHomePage.vue') }
       ]
     }
   ],
