@@ -1,2 +1,5 @@
-import HomePage from "./ui/HomePage.vue";
-export { HomePage }
+import { pages as UiPages } from './ui/index'
+
+export const pages = {
+    ...UiPages
+}

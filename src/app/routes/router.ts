@@ -1,4 +1,4 @@
-import { pages } from '@/pages'
+import { pages as homePages } from '@/pages/home'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -8,7 +8,7 @@ const router = createRouter({
       path: '/courses',
       component: () => import('@/app/layouts/DefaultLayout.vue'),
       children: [
-        { path: '', component: pages.Home }
+        { path: '', component: homePages.Home }
       ]
     }
   ],
