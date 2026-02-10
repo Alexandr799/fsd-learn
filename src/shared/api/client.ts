@@ -5,5 +5,5 @@ export const client = axios.create({
     headers: {
         "Content-Type": 'application/json'
     },
-    baseURL: envConfig.APP_URL
+    baseURL: envConfig.VITE_API_URL
 })
