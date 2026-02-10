@@ -1,0 +1,3 @@
+<template>
+  карточка курса
+</template>
