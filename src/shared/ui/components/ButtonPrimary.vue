@@ -1,0 +1,3 @@
+<template>
+    Фиолетовая кнопка
+</template>
